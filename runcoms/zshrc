@@ -10,5 +10,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+export HOMEBREW_GITHUB_API_TOKEN=989310a74ba06a1251a4deaced67762e6161d3c2
+
+setopt clobber
+
 export NVM_DIR="/Users/zeiglerr/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
