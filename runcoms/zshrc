@@ -20,3 +20,5 @@ export ANDROID_SDK="${HOME}/Library/Android"
 
 # Make android monitor work
 export ANDROID_HVPROTO=ddm
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
